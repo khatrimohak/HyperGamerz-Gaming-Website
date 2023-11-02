@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+html,
+body {
+  text-align: center;
+  background-image: url("./pokemons-all-around-wallpaper-2560x1080_14.jpg");
+  background-size: cover;
+  margin: 0%;
+  margin-top: 0.1%;
+}
+
+#level,
+p {
+  font-family: "Orbitron";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 14pt;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  backdrop-filter: blur(350px);
+}
+.game-title {
+  background-image: linear-gradient(
+    90deg,
+    #dc123d 20%,
+    #615959 50%,
+    #ffffff 100%
+  );
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+  font-family: "Orbitron";
+  font-weight: bolder;
+  border-radius: 8px;
+  border: 5px solid #ccc;
+  border-color: black;
+  /*font-size: xx-large;*/
+  font-size: 40px;
+}
+#score-board {
+  width: 900px;
+  position: relative;
+  background: rgb(12, 39, 99);
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+}
+#level {
+  color: whitesmoke;
+  font-size: 18pt;
+  font-weight: bold;
+}
+#board-container {
+  width: 900px;
+  height: 500px;
+  position: relative;
+  background: rgb(145, 199, 107);
+  border-top: none;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  cursor: crosshair;
+}
+#leftSide,
+#rightSide {
+  position: absolute;
+  /* The board size */
+  width: 450px;
+  height: 500px;
+}
+#leftSide {
+  left: 0;
+}
+#rightSide {
+  left: 450px;
+  border-left: 2px solid black;
+}
+#leftSide img,
+#rightSide img {
+  position: absolute;
+  cursor: pointer;
+}
+.wrapper {
+  width: 806px;
+  margin: 0 auto;
+}
+.gameover {
+  background-color: rgba(122, 122, 122, 0.045);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  height: 100vh;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameover > button {
+  padding: 2vmax;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  width: 30vw;
+  background-color: rgb(196, 26, 26);
+  font: 900 4vmax "Orbitron";
+  transition: all 0.5s;
+}
+.gameover > button:hover {
+  background-color: rgb(7, 54, 124);
+  color: white;
+  box-shadow: 50 50 1000px rgb(82, 79, 79);
+}
+
+.gameover > div {
+  margin: 2vmax;
+  color: white;
+  font: 600 1.2vmax "Orbitron";
+}

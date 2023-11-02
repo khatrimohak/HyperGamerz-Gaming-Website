@@ -1,0 +1,110 @@
+ .social-media-btn {
+     padding: 20px 44px 20px 30px;
+     font-size: 20px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     margin: 0 -2px;
+     cursor: pointer
+ }
+
+ .social-media:hover {
+     color: white;
+     opacity: .9
+ }
+
+ .social-media-btn:hover {
+     color: white !important
+ }
+
+ .social-media-facebook {
+     background: #3b5998;
+     color: white
+ }
+
+ .social-media-twitter {
+     background: #55acee;
+     color: white
+ }
+
+ .social-media-pinterest {
+     background: #c8232c;
+     color: white
+ }
+
+ .social-media-google {
+     background: #dd4b39;
+     color: white
+ }
+
+ .social-media-whatsapp {
+     background: #25d366;
+     color: white
+ }
+
+ .social-media-envelope {
+     background: #727272;
+     color: white
+ }
+
+ .footer-fixed {
+     z-index: 9999
+ }
+
+ @media screen and (max-width:426px) {
+     .social-media-btn {
+         width: 20%;
+         font-size: 17pt !important;
+         padding: 10px 41px 10px 25px
+     }
+     .footer-fixed {
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         right: -5px
+     }
+ }
+
+ @media screen and (max-width:376px) and (min-width:321px) {
+     .social-media-btn {
+         font-size: 16pt !important;
+         padding: 10px 41px 10px 20px
+     }
+ }
+
+ @media screen and (max-width:320px) {
+     .social-media-btn {
+         font-size: 14pt !important;
+         padding: 14px 41px 12px 20px
+     }
+ }
+
+ .social-media-btn-lp {
+     padding: 15px 43px 13px 40px;
+     font-size: 25px;
+     text-align: center;
+     text-decoration: none;
+     margin: 0 -2px;
+     cursor: pointer
+ }
+
+ @media screen and (max-width:426px) {
+     .social-media-btn-lp {
+         font-size: 17pt !important;
+         padding: 10px 25px 10px 26px
+     }
+ }
+
+ @media screen and (max-width:376px) and (min-width:321px) {
+     .social-media-btn-lp {
+         font-size: 16pt !important;
+         padding: 10px 23px 10px 23px
+     }
+ }
+
+ @media screen and (max-width:320px) {
+     .social-media-btn-lp {
+         font-size: 15pt !important;
+         padding: 10px 23px 10px 20px
+     }
+ }
